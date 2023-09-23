@@ -2,6 +2,7 @@
 
 /**
 *main - print _putchar
+*is written by baron
 *return: 0
 */
 
