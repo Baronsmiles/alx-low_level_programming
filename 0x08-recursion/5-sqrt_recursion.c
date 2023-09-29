@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * sqrt_i return the natural squre root of a number
+ * sqrt_i -  return the natural squre root of a number
  * @n: intput number
- * @c: iterator
+ * @a: iterator
  * Return: natural squre root or -1
  */
 int sqrt_i(int n, int a)
@@ -26,7 +25,7 @@ int sqrt_i(int n, int a)
  *@n: intput number
  *Return: natural squre root
  */
-int _sqrt_recursion(int n)	
+int _sqrt_recursion(int n)
 	{
 		return (sqrt_i(n, 1));
 	}
