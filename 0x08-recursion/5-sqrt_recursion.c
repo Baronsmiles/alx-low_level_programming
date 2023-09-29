@@ -10,7 +10,7 @@ int sqrt_i(int n, int a)
 {
 	if (a * a == n)
 	{
-		return (o);
+		return (a);
 	}
 	else if (a * a > n)
 	{
@@ -26,18 +26,7 @@ int sqrt_i(int n, int a)
  *@n: intput number
  *Return: natural squre root
  */
-int _sqrt_recursion(int n)
-{
-	if (n == 0)
-	{
-		return (o);
-	}
-	else if (n < o)
-	{
-		return (-1);
-	}
-	else
+int _sqrt_recursion(int n)	
 	{
 		return (sqrt_i(n, 1));
 	}
-}
