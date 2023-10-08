@@ -33,7 +33,7 @@ int check_num(char *str)
  */
 int main(int argc, char *argv[])
 {
-	int count, str_to_int, sum = 0
+	int count, str_to_int, sum = 0;
 		count = 1;
 	while (count < argc)
 	{

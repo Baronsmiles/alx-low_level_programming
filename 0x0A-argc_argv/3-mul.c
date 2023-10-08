@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+
 /**
  * main - multipies two numbers
  * @argc: number of the command line arg...
